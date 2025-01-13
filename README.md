@@ -24,3 +24,7 @@ Das **Weak-Words Analysis Tool** ist ein Python-Tool zur automatisierten Analyse
 Installieren Sie die Abhängigkeiten mit:
 ```bash
 pip install -r requirements.txt
+```
+## Lizenzhinweis
+
+Dieses Projekt verwendet das Modul [PyMuPDF](https://pymupdf.readthedocs.io/), das unter der [GNU Affero General Public License (AGPL)](https://www.gnu.org/licenses/agpl-3.0.de.html) lizenziert ist. Durch die Nutzung dieses Moduls unterliegt auch dieses Projekt den Bestimmungen der AGPL. Bitte beachten Sie die Lizenzbedingungen für weitere Informationen.
