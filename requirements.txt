@@ -1,0 +1,20 @@
+# -----------------------------------------------------------------------------
+# Weak-Words Analysis Tool - Abhängigkeiten
+# -----------------------------------------------------------------------------
+# Beschreibung:
+# Diese Datei listet alle erforderlichen Pakete für das Weak-Words Analysis Tool
+# auf. Installieren Sie diese Abhängigkeiten mit dem Befehl:
+# 
+# pip install -r requirements.txt
+# -----------------------------------------------------------------------------
+
+# PyMuPDF - Für die Verarbeitung und Bearbeitung von PDF-Dateien
+pymupdf==1.22.5
+
+# PyYAML - Für das Laden und Verarbeiten der YAML-Datei
+pyyaml==6.0
+
+# tkinter - Standardmäßig in Python enthalten, keine Installation erforderlich
+# Hinweis: Bei einigen Betriebssystemen (z.B. Linux) muss tkinter manuell installiert werden.
+
+# logging - Standardbibliothek von Python, keine Installation erforderlich

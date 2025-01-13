@@ -1,0 +1,235 @@
+# -----------------------------------------------------------------------------
+# Weak-Words Konfigurationsdatei
+# -----------------------------------------------------------------------------
+# Beschreibung:
+# Diese Datei enthält die Definition von schwachen Begriffen ("Weak-Words")
+# sowohl in deutscher als auch in englischer Sprache. Sie dient dazu, 
+# Begriffe zu identifizieren, die in Dokumenten vage oder unpräzise sind.
+# -----------------------------------------------------------------------------
+# Änderungshistorie:
+# -----------------------------------------------------------------------------
+# Version  Datum         Autor                    Änderungen
+# -----------------------------------------------------------------------------
+# 1.0      13.01.2025    CHOE                      Initiale Erstellung
+# -----------------------------------------------------------------------------
+# Hinweise:
+# - Kommentare können durch das Präfix '#' hinzugefügt werden.
+# - Änderungen an dieser Datei sollten in der Änderungshistorie dokumentiert werden.
+# - Die YAML-Syntax muss korrekt sein, um Parsing-Fehler zu vermeiden!
+# -----------------------------------------------------------------------------
+
+deutsch:
+  Mehrdeutigkeit in Timing oder Menge:
+    Oft: "Wie oft genau?"
+    Manchmal: "Wann genau? In welchen Fällen?"
+    Häufig: "Wie oft ist 'häufig'?"
+    Gelegentlich: "Unklar, wie oft oder wann."
+    Selten: "Was bedeutet 'selten'? Wie häufig ist das?"
+    Normalerweise: "Was ist die Regel? Was ist die Ausnahme?"
+    Bald: "Wie bald? Eine genaue Zeitangabe fehlt."
+    In der Zukunft: "Keine konkrete Zeitangabe."
+    In naher Zukunft: "Unklare Zeitspanne."
+    Schließlich: "Wann genau?"
+  Unklarheit in der Fähigkeit:
+    Unterstützt: "Was genau wird unterstützt? In welchem Umfang?"
+    Verarbeitet: "Auf welche Weise wird etwas 'verarbeitet'?"
+    Bearbeitet: "Unklar, wie der Prozess aussieht oder was genau bearbeitet wird."
+    Verwaltet: "Wie wird etwas 'verwalten'? Was bedeutet das konkret?"
+    Beschäftigt sich mit: "Keine genaue Beschreibung des Verhaltens oder der Methode."
+    Optimiert: "Welche spezifischen Maßnahmen werden zur Optimierung ergriffen?"
+    Hilft bei: "Wie wird Unterstützung bereitgestellt? In welchem Umfang?"
+    Assistent: "Welche spezifischen Aspekte werden unterstützt?"
+  Unsicherheit bei Anforderungen oder Verhalten:
+    Könnte: "Keine Klarheit, ob etwas tatsächlich passiert oder nur möglich ist."
+    Vielleicht: "Keine Klarheit, ob etwas tatsächlich passiert oder nur möglich ist."
+    Möglicherweise: "Unklare Wahrscheinlichkeit."
+    Wahrscheinlich: "Wie wahrscheinlich genau?"
+    Vermutlich: "Wie hoch ist die Wahrscheinlichkeit? Keine klare Aussage."
+  Ungenauigkeit bei Aktionen:
+    Versuchen zu: "Bedeutet das, dass es nicht immer funktioniert?"
+    Erwägen: "Wird eine Aktion tatsächlich durchgeführt, oder nur in Erwägung gezogen?"
+    Sicherstellen: "Unklar, wie die Sicherstellung erfolgt oder ob es tatsächlich garantiert wird."
+    Erwarten: "Was genau wird erwartet, und wie wird dies überprüft?"
+    Sollte: "Impliziert, dass etwas nicht zwingend erforderlich ist. Es ist nicht verbindlich."
+    Kann: "Beschreibt, was möglich ist, aber nicht, was tatsächlich passieren wird."
+  Mangel an Spezifität in Qualifikatoren:
+    Usw.: "Welche weiteren Elemente sind gemeint? Es bleibt vage."
+    Und/oder: "Führt zu Mehrdeutigkeit. Ist beides gemeint oder nur eines?"
+    Ähnlich wie: "Keine klare Abgrenzung oder Definition."
+    Angemessen: "Was wird als 'angemessen' betrachtet?"
+    Relevant: "Welche Relevanzkriterien werden verwendet?"
+    Ausreichend: "Was bedeutet 'ausreichend'? Wie wird das gemessen?"
+    Vernünftig: "Was genau ist eine 'angemessene' oder 'vernünftige' Erwartung?"
+    Adequat: "Was wird als 'ausreichend' angesehen?"
+    Substanziell: "Wie groß oder bedeutend ist das 'Substanzielle'?"
+  Unklarer Umfang oder Definition:
+    Einige: "Wie viele? Welche genauen Elemente sind gemeint?"
+    Teilweise: "Welcher Teil genau?"
+    Mehrere: "Wie viele? Der genaue Umfang ist nicht festgelegt."
+    Viele: "Wie viele? Die Anzahl oder Menge ist nicht spezifiziert."
+    Verschiedene: "Welche spezifischen Elemente sind gemeint?"
+    Zahlreiche: "Keine genaue Angabe über die Anzahl."
+    Wenige: "Wie viele sind 'wenige'?"
+  Subjektive Begriffe:
+    Effizient: "Was bedeutet 'effizient'? Es gibt keine konkrete Messung."
+    Wirksam: "Wie wird die Wirksamkeit gemessen?"
+    Schnell: "Wie schnell genau?"
+    Hochwertig: "Was bedeutet 'hohe Qualität'? Welche Metriken werden verwendet?"
+    Bestens: "Was definiert das 'Beste' in diesem Zusammenhang?"
+    Benutzerfreundlich: "Was bedeutet 'benutzerfreundlich'? Für wen?"
+    Flexibel: "Wie flexibel? Unter welchen Bedingungen?"
+    Einfach: "Was bedeutet 'einfach'? Für wen ist es einfach?"
+    Gezielt: "Was ist genau das Ziel? Wie wird es erreicht?"
+    Ausgerichtet auf: "Auf welche Weise wird das Ziel verfolgt?"
+  Verallgemeinerte oder undefinierte Ergebnisse:
+    Verbessert: "In welcher Hinsicht wird etwas verbessert? Wie wird das gemessen?"
+    Erhöht: "Was genau wird erhöht? Um wie viel?"
+    Reduziert: "Um wie viel genau wird etwas reduziert? Wie wird das gemessen?"
+    Erleichtert: "Auf welche Weise wird etwas erleichtert? Keine genauen Maßnahmen."
+    Maximiert: "Wie wird etwas maximiert, und was genau ist das Ziel?"
+    Minimiert: "Wie wird etwas minimiert, und in welchem Umfang?"
+    Steigert: "Wie wird eine Steigerung erzielt und gemessen?"
+  Kontextuell vage:
+    Bei Bedarf: "Wann wird es benötigt? Keine klaren Kriterien."
+    Wenn möglich: "Was bedeutet 'möglich'? Unter welchen Bedingungen?"
+    Wo zutreffend: "Wann ist es 'anwendbar'? Keine klaren Anwendungsfälle."
+    Nach Bedarf: "Wie wird 'angemessen' definiert?"
+    Wie erforderlich: "Wann genau wird es 'erforderlich'?"
+    Im Allgemeinen: "Wie allgemein? Welche Ausnahmen gibt es?"
+    Typischerweise: "Wie typisch ist die Situation?"
+  Fehlende Verbindlichkeit:
+    Beabsichtigt: "Keine feste Zusage, dass etwas tatsächlich passiert."
+    Plant: "Keine Garantie, dass der Plan tatsächlich umgesetzt wird."
+    Zielt ab auf: "Kein klarer Hinweis darauf, dass das Ziel tatsächlich erreicht wird."
+    Soll bemühen: "Keine feste Verpflichtung, sondern Bemühung."
+    Erwartet: "Keine klare Anforderung, nur eine Erwartung."
+  Unklarheit in der Zielgruppe:
+    Endbenutzer: "Unklar, wer genau der Endbenutzer ist. Ist es ein Administrator, ein Kunde, oder jemand anderes?"
+    Kunde: "Was für ein Kunde? Interner Kunde, externer Kunde oder jemand anderes?"
+    Stakeholder: "Welche spezifischen Stakeholder sind gemeint?"
+  Unklare technische Begriffe:
+    State-of-the-art: "Was bedeutet das? Welcher Standard wird genau gemeint?"
+    Spitzentechnologie: "Unklar, was damit konkret gemeint ist."
+    Robust: "Was bedeutet 'robust'? Wie wird Robustheit gemessen oder nachgewiesen?"
+  Unklare Verhaltensbeschreibung:
+    Angemessen reagieren: "Wie sieht die 'angemessene' Reaktion aus? Keine klare Definition des erwarteten Verhaltens."
+    Elegantes Scheitern: "Was bedeutet 'anmutig scheitern'? Was passiert, wenn ein System ausfällt?"
+    Korrekt verhalten: "Wie wird Korrektheit definiert?"
+  Nicht messbare Erfolgsfaktoren:
+    Verbesserte Leistung: "Was bedeutet 'verbesserte Leistung'? Welche Metriken werden verwendet?"
+    Bessere Sicherheit: "Wie wird 'bessere Sicherheit' gemessen? Welche Bedrohungen werden reduziert?"
+    Zuverlässiger: "Was bedeutet 'zuverlässiger'? Um wie viel hat sich die Zuverlässigkeit verbessert?"
+  Schwache Aussagen über Benutzerfreundlichkeit:
+    Benutzerfreundlich: "Was genau bedeutet 'benutzerfreundlich'? Welche Funktionen?"
+    Intuitive Benutzeroberfläche: "Wie wird 'intuitiv' definiert?"
+    Einfach zu bedienen: "Keine klaren Kriterien, wie Einfachheit gemessen wird."
+
+english:
+  Ambiguity in timing or quantity:
+    Often: "How often exactly?"
+    Sometimes: "When exactly? In which cases?"
+    Frequently: "How often is 'frequently'?"
+    Occasionally: "Unclear how often or when."
+    Rarely: "What does 'rarely' mean? How often is that?"
+    Usually: "What is the rule? What is the exception?"
+    Soon: "How soon? A specific time frame is missing."
+    In the future: "No specific time given."
+    In the near future: "Unclear time frame."
+    Eventually: "When exactly?"
+  Ambiguity in capability:
+    Supports: "What exactly is supported? To what extent?"
+    Handles: "In what way is it 'handled' or 'processed'?"
+    Processes: "Unclear what the process looks like or what is processed."
+    Manages: "How is something 'managed'? What does it mean exactly?"
+    Deals with: "No clear description of the behavior or method."
+    Optimizes: "What specific measures are taken to optimize?"
+    Assists: "How is support provided? To what extent?"
+    Helps with: "Which specific aspects are being supported?"
+  Uncertainty in requirements or behavior:
+    Might: "Unclear if something actually happens or is only possible."
+    May: "Unclear if something actually happens or is only possible."
+    Could: "No definitive statement about the behavior."
+    Possibly: "Unclear likelihood."
+    Likely: "How likely exactly?"
+    Probably: "What is the probability? No clear statement."
+  Inaccuracy in actions:
+    Try to: "Does this mean it doesn't always work?"
+    Attempt to: "Does it always succeed, or is failure possible?"
+    Consider: "Is an action actually taken, or only considered?"
+    Ensure: "Unclear how ensuring occurs or if it is truly guaranteed."
+    Expect: "What exactly is expected, and how is it verified?"
+    Should: "Implies that something is not mandatory. It is not binding."
+    Can: "Describes what is possible, but not what actually will happen."
+  Lack of specificity in qualifiers:
+    Etc.: "What other elements are meant? It remains vague."
+    And/or: "Leads to ambiguity. Does it mean both or just one?"
+    Similar to: "No clear differentiation or definition."
+    Appropriate: "What is considered 'appropriate'?"
+    Relevant: "What relevance criteria are being used?"
+    Sufficient: "What does 'sufficient' mean? How is it measured?"
+    Reasonable: "What exactly is a 'reasonable' expectation?"
+    Adequate: "What is considered 'adequate'?"
+    Substantial: "How large or significant is 'substantial'?"
+  Unclear scope or definition:
+    Some: "How many? What specific elements are meant?"
+    Partly: "Which part exactly?"
+    Several: "How many? The exact scope is not defined."
+    Many: "How many? The quantity is not specified."
+    Various: "Which specific elements are meant?"
+    Multiple: "How many exactly?"
+    Numerous: "No exact number is given."
+    Few: "How many are 'few'?"
+  Subjective terms:
+    Efficient: "What does 'efficient' mean? There is no concrete measurement."
+    Effective: "How is effectiveness measured?"
+    Fast: "How fast exactly?"
+    High-quality: "What does 'high-quality' mean? What metrics are used?"
+    Best: "What defines the 'best' in this context?"
+    User-friendly: "What does 'user-friendly' mean? For whom?"
+    Flexible: "How flexible? Under what conditions?"
+    Simple: "What does 'simple' mean? For whom is it simple?"
+    Targeted: "What is the exact goal? How is it achieved?"
+    Aimed at: "How is the goal pursued?"
+  Generalized or undefined outcomes:
+    Improves: "In what way is something improved? How is it measured?"
+    Increases: "What exactly is increased? By how much?"
+    Reduces: "By how much is something reduced? How is it measured?"
+    Enhances: "What is improved, and how is it measured?"
+    Facilitates: "In what way is something facilitated? No clear actions."
+    Maximizes: "How is something maximized, and what exactly is the goal?"
+    Minimizes: "How is something minimized, and to what extent?"
+    Boost: "How is an increase achieved and measured?"
+  Contextually vague:
+    As needed: "When is it needed? No clear criteria."
+    If possible: "What does 'possible' mean? Under what conditions?"
+    Where applicable: "When is it 'applicable'? No clear use cases."
+    As appropriate: "How is 'appropriate' defined?"
+    As required: "When exactly is it 'required'?"
+    Generally: "How general? What exceptions exist?"
+    Typically: "How typical is the situation?"
+  Lack of commitment:
+    Intends to: "No firm commitment that something will actually happen."
+    Plans to: "No guarantee that the plan will actually be implemented."
+    Aims to: "No clear indication that the goal will actually be achieved."
+    Shall endeavor to: "No firm obligation, only an effort."
+    Is expected to: "No clear requirement, only an expectation."
+  Unclear audience:
+    End-user: "Unclear who the end-user is. Is it an admin, a customer, or someone else?"
+    Customer: "What kind of customer? Internal, external, or someone else?"
+    Stakeholder: "Which specific stakeholders are meant?"
+  Unclear technical terms:
+    State-of-the-art: "What does this mean? Which standard is being referenced?"
+    Cutting-edge: "Unclear what this specifically refers to. What is the purpose or benefit?"
+    Robust: "What does 'robust' mean? How is robustness measured or demonstrated?"
+  Unclear behavior description:
+    Responds appropriately: "What does 'appropriate' response mean? No clear definition."
+    Fails gracefully: "What does 'graceful failure' mean? What happens when a system fails?"
+    Behaves correctly: "How is correctness defined? No concrete definition for correct behavior."
+  Non-measurable success factors:
+    Improved performance: "What does 'improved performance' mean? What metrics are used?"
+    Better security: "How is 'better security' measured? What threats are mitigated?"
+    More reliable: "What does 'more reliable' mean? By how much has reliability improved?"
+  Vague statements about usability:
+    User-friendly: "What exactly does 'user-friendly' mean? Which features?"
+    Intuitive interface: "How is 'intuitive' defined?"
+    Easy to use: "No clear criteria for measuring simplicity."
