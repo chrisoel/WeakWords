@@ -10,6 +10,7 @@
 # -----------------------------------------------------------------------------
 # Version  Datum         Autor                    Änderungen
 # -----------------------------------------------------------------------------
+# 1.1      01.02.2025    CHOE                      Erweiterung der Begriffe
 # 1.0      13.01.2025    CHOE                      Initiale Erstellung
 # -----------------------------------------------------------------------------
 # Hinweise:
@@ -30,6 +31,12 @@ deutsch:
     In der Zukunft: "Keine konkrete Zeitangabe."
     In naher Zukunft: "Unklare Zeitspanne."
     Schließlich: "Wann genau?"
+    
+  Ungefähre Angaben:
+    Ungefähr: "Unpräzise Mengen- oder Zeitangabe – der exakte Wert fehlt."
+    Circa: "Ein Näherungswert, der genauer spezifiziert werden sollte."
+    Etwa: "Vage Angabe, die Präzision vermissen lässt."
+    
   Unklarheit in der Fähigkeit:
     Unterstützt: "Was genau wird unterstützt? In welchem Umfang?"
     Verarbeitet: "Auf welche Weise wird etwas 'verarbeitet'?"
@@ -39,12 +46,14 @@ deutsch:
     Optimiert: "Welche spezifischen Maßnahmen werden zur Optimierung ergriffen?"
     Hilft bei: "Wie wird Unterstützung bereitgestellt? In welchem Umfang?"
     Assistent: "Welche spezifischen Aspekte werden unterstützt?"
+    
   Unsicherheit bei Anforderungen oder Verhalten:
     Könnte: "Keine Klarheit, ob etwas tatsächlich passiert oder nur möglich ist."
     Vielleicht: "Keine Klarheit, ob etwas tatsächlich passiert oder nur möglich ist."
     Möglicherweise: "Unklare Wahrscheinlichkeit."
     Wahrscheinlich: "Wie wahrscheinlich genau?"
     Vermutlich: "Wie hoch ist die Wahrscheinlichkeit? Keine klare Aussage."
+    
   Ungenauigkeit bei Aktionen:
     Versuchen zu: "Bedeutet das, dass es nicht immer funktioniert?"
     Erwägen: "Wird eine Aktion tatsächlich durchgeführt, oder nur in Erwägung gezogen?"
@@ -52,6 +61,7 @@ deutsch:
     Erwarten: "Was genau wird erwartet, und wie wird dies überprüft?"
     Sollte: "Impliziert, dass etwas nicht zwingend erforderlich ist. Es ist nicht verbindlich."
     Kann: "Beschreibt, was möglich ist, aber nicht, was tatsächlich passieren wird."
+    
   Mangel an Spezifität in Qualifikatoren:
     Usw.: "Welche weiteren Elemente sind gemeint? Es bleibt vage."
     Und/oder: "Führt zu Mehrdeutigkeit. Ist beides gemeint oder nur eines?"
@@ -62,6 +72,7 @@ deutsch:
     Vernünftig: "Was genau ist eine 'angemessene' oder 'vernünftige' Erwartung?"
     Adequat: "Was wird als 'ausreichend' angesehen?"
     Substanziell: "Wie groß oder bedeutend ist das 'Substanzielle'?"
+    
   Unklarer Umfang oder Definition:
     Einige: "Wie viele? Welche genauen Elemente sind gemeint?"
     Teilweise: "Welcher Teil genau?"
@@ -70,6 +81,7 @@ deutsch:
     Verschiedene: "Welche spezifischen Elemente sind gemeint?"
     Zahlreiche: "Keine genaue Angabe über die Anzahl."
     Wenige: "Wie viele sind 'wenige'?"
+    
   Subjektive Begriffe:
     Effizient: "Was bedeutet 'effizient'? Es gibt keine konkrete Messung."
     Wirksam: "Wie wird die Wirksamkeit gemessen?"
@@ -81,6 +93,10 @@ deutsch:
     Einfach: "Was bedeutet 'einfach'? Für wen ist es einfach?"
     Gezielt: "Was ist genau das Ziel? Wie wird es erreicht?"
     Ausgerichtet auf: "Auf welche Weise wird das Ziel verfolgt?"
+    Gewissermaßen: "Drückt eine unklare, relative Aussage aus."
+    Relativ: "Ohne feste Bezugsgröße, unpräzise."
+    Im Großen und Ganzen: "Allgemeine Aussage, die Details vermissen lässt."
+
   Verallgemeinerte oder undefinierte Ergebnisse:
     Verbessert: "In welcher Hinsicht wird etwas verbessert? Wie wird das gemessen?"
     Erhöht: "Was genau wird erhöht? Um wie viel?"
@@ -89,6 +105,7 @@ deutsch:
     Maximiert: "Wie wird etwas maximiert, und was genau ist das Ziel?"
     Minimiert: "Wie wird etwas minimiert, und in welchem Umfang?"
     Steigert: "Wie wird eine Steigerung erzielt und gemessen?"
+    
   Kontextuell vage:
     Bei Bedarf: "Wann wird es benötigt? Keine klaren Kriterien."
     Wenn möglich: "Was bedeutet 'möglich'? Unter welchen Bedingungen?"
@@ -97,34 +114,46 @@ deutsch:
     Wie erforderlich: "Wann genau wird es 'erforderlich'?"
     Im Allgemeinen: "Wie allgemein? Welche Ausnahmen gibt es?"
     Typischerweise: "Wie typisch ist die Situation?"
+    
   Fehlende Verbindlichkeit:
     Beabsichtigt: "Keine feste Zusage, dass etwas tatsächlich passiert."
     Plant: "Keine Garantie, dass der Plan tatsächlich umgesetzt wird."
     Zielt ab auf: "Kein klarer Hinweis darauf, dass das Ziel tatsächlich erreicht wird."
     Soll bemühen: "Keine feste Verpflichtung, sondern Bemühung."
     Erwartet: "Keine klare Anforderung, nur eine Erwartung."
+    
   Unklarheit in der Zielgruppe:
     Endbenutzer: "Unklar, wer genau der Endbenutzer ist. Ist es ein Administrator, ein Kunde, oder jemand anderes?"
     Kunde: "Was für ein Kunde? Interner Kunde, externer Kunde oder jemand anderes?"
     Stakeholder: "Welche spezifischen Stakeholder sind gemeint?"
+    
   Unklare technische Begriffe:
     State-of-the-art: "Was bedeutet das? Welcher Standard wird genau gemeint?"
     Spitzentechnologie: "Unklar, was damit konkret gemeint ist."
     Robust: "Was bedeutet 'robust'? Wie wird Robustheit gemessen oder nachgewiesen?"
+    Innovativ: "Welcher Innovationsgrad ist gemeint? Oft ein Marketingbegriff ohne konkrete Aussage."
+    
   Unklare Verhaltensbeschreibung:
     Angemessen reagieren: "Wie sieht die 'angemessene' Reaktion aus? Keine klare Definition des erwarteten Verhaltens."
     Elegantes Scheitern: "Was bedeutet 'anmutig scheitern'? Was passiert, wenn ein System ausfällt?"
     Korrekt verhalten: "Wie wird Korrektheit definiert?"
+    
   Nicht messbare Erfolgsfaktoren:
     Verbesserte Leistung: "Was bedeutet 'verbesserte Leistung'? Welche Metriken werden verwendet?"
     Bessere Sicherheit: "Wie wird 'bessere Sicherheit' gemessen? Welche Bedrohungen werden reduziert?"
     Zuverlässiger: "Was bedeutet 'zuverlässiger'? Um wie viel hat sich die Zuverlässigkeit verbessert?"
+    
   Schwache Aussagen über Benutzerfreundlichkeit:
     Benutzerfreundlich: "Was genau bedeutet 'benutzerfreundlich'? Welche Funktionen?"
     Intuitive Benutzeroberfläche: "Wie wird 'intuitiv' definiert?"
     Einfach zu bedienen: "Keine klaren Kriterien, wie Einfachheit gemessen wird."
 
 english:
+  Approximate Terms:
+    Approximately: "A vague measure; a more precise value should be provided."
+    Roughly: "Indicates an approximation without specificity."
+    About: "Suggests a general figure or time without exact details."
+
   Ambiguity in timing or quantity:
     Often: "How often exactly?"
     Sometimes: "When exactly? In which cases?"
@@ -136,6 +165,7 @@ english:
     In the future: "No specific time given."
     In the near future: "Unclear time frame."
     Eventually: "When exactly?"
+    
   Ambiguity in capability:
     Supports: "What exactly is supported? To what extent?"
     Handles: "In what way is it 'handled' or 'processed'?"
@@ -145,6 +175,7 @@ english:
     Optimizes: "What specific measures are taken to optimize?"
     Assists: "How is support provided? To what extent?"
     Helps with: "Which specific aspects are being supported?"
+    
   Uncertainty in requirements or behavior:
     Might: "Unclear if something actually happens or is only possible."
     May: "Unclear if something actually happens or is only possible."
@@ -152,6 +183,7 @@ english:
     Possibly: "Unclear likelihood."
     Likely: "How likely exactly?"
     Probably: "What is the probability? No clear statement."
+    
   Inaccuracy in actions:
     Try to: "Does this mean it doesn't always work?"
     Attempt to: "Does it always succeed, or is failure possible?"
@@ -160,6 +192,7 @@ english:
     Expect: "What exactly is expected, and how is it verified?"
     Should: "Implies that something is not mandatory. It is not binding."
     Can: "Describes what is possible, but not what actually will happen."
+    
   Lack of specificity in qualifiers:
     Etc.: "What other elements are meant? It remains vague."
     And/or: "Leads to ambiguity. Does it mean both or just one?"
@@ -170,6 +203,7 @@ english:
     Reasonable: "What exactly is a 'reasonable' expectation?"
     Adequate: "What is considered 'adequate'?"
     Substantial: "How large or significant is 'substantial'?"
+    
   Unclear scope or definition:
     Some: "How many? What specific elements are meant?"
     Partly: "Which part exactly?"
@@ -179,6 +213,7 @@ english:
     Multiple: "How many exactly?"
     Numerous: "No exact number is given."
     Few: "How many are 'few'?"
+    
   Subjective terms:
     Efficient: "What does 'efficient' mean? There is no concrete measurement."
     Effective: "How is effectiveness measured?"
@@ -190,6 +225,10 @@ english:
     Simple: "What does 'simple' mean? For whom is it simple?"
     Targeted: "What is the exact goal? How is it achieved?"
     Aimed at: "How is the goal pursued?"
+    Somewhat: "Expresses a vague, relative statement."
+    Relatively: "Lacks a fixed reference, imprecise."
+    Overall: "General statement that lacks details."
+    
   Generalized or undefined outcomes:
     Improves: "In what way is something improved? How is it measured?"
     Increases: "What exactly is increased? By how much?"
@@ -199,6 +238,7 @@ english:
     Maximizes: "How is something maximized, and what exactly is the goal?"
     Minimizes: "How is something minimized, and to what extent?"
     Boost: "How is an increase achieved and measured?"
+    
   Contextually vague:
     As needed: "When is it needed? No clear criteria."
     If possible: "What does 'possible' mean? Under what conditions?"
@@ -207,28 +247,35 @@ english:
     As required: "When exactly is it 'required'?"
     Generally: "How general? What exceptions exist?"
     Typically: "How typical is the situation?"
+    
   Lack of commitment:
     Intends to: "No firm commitment that something will actually happen."
     Plans to: "No guarantee that the plan will actually be implemented."
     Aims to: "No clear indication that the goal will actually be achieved."
     Shall endeavor to: "No firm obligation, only an effort."
     Is expected to: "No clear requirement, only an expectation."
+    
   Unclear audience:
     End-user: "Unclear who the end-user is. Is it an admin, a customer, or someone else?"
     Customer: "What kind of customer? Internal, external, or someone else?"
     Stakeholder: "Which specific stakeholders are meant?"
+    
   Unclear technical terms:
     State-of-the-art: "What does this mean? Which standard is being referenced?"
     Cutting-edge: "Unclear what this specifically refers to. What is the purpose or benefit?"
     Robust: "What does 'robust' mean? How is robustness measured or demonstrated?"
+    Innovative: "Lacks a clear definition of innovation; often used as a marketing term."
+    
   Unclear behavior description:
     Responds appropriately: "What does 'appropriate' response mean? No clear definition."
     Fails gracefully: "What does 'graceful failure' mean? What happens when a system fails?"
     Behaves correctly: "How is correctness defined? No concrete definition for correct behavior."
+    
   Non-measurable success factors:
     Improved performance: "What does 'improved performance' mean? What metrics are used?"
     Better security: "How is 'better security' measured? What threats are mitigated?"
     More reliable: "What does 'more reliable' mean? By how much has reliability improved?"
+    
   Vague statements about usability:
     User-friendly: "What exactly does 'user-friendly' mean? Which features?"
     Intuitive interface: "How is 'intuitive' defined?"
